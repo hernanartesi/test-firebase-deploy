@@ -15,7 +15,7 @@ function App() {
       to: "protected",
     },
     {
-      label: "Logout",
+      label: "LOGOUT",
       icon: "pi pi-sign-out",
       command: async () => {
         await signOut(auth)
